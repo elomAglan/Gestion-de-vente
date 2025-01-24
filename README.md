@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- # materialpro-react-lite -->
 <!-- Heading of Template -->
 <h1>
@@ -118,3 +119,7 @@
 
 <!-- <h4><a href="https://www.wrappixel.com/demos/admin-templates/material-pro/material/index.html">Demo</a></h4> -->
 
+=======
+# Gestion-de-vente
+C'est une application react conçu pour facilité la gestion de stock et des ventes dans les pme
+>>>>>>> 7c603ff073a0b6351bc657083fe3308b1af1f905
