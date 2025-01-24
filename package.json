@@ -1,0 +1,79 @@
+{
+  "name": "starter-bt5",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "description": "Material Pro React Admin Lite - Template configuration",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "7.21.11",
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "14.0.0",
+    "@testing-library/user-event": "14.4.3",
+    "apexcharts": "3.41.0",
+    "axios": "^1.7.8",
+    "body-parser": "^1.20.3",
+    "bootstrap": "^5.3.0",
+    "bootstrap-icons": "1.10.5",
+    "chart.js": "^4.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "history": "5.3.0",
+    "html5-qrcode": "^2.3.8",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.4",
+    "mysql2": "^3.11.5",
+    "node-sass": "9.0.0",
+    "prop-types": "15.8.1",
+    "react": "^19.0.0",
+    "react-apexcharts": "1.4.0",
+    "react-barcode-reader": "^0.0.2",
+    "react-bootstrap": "^2.10.6",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "6.12.1",
+    "react-webcam-barcode-scanner": "^0.0.2",
+    "reactstrap": "9.2.0",
+    "sass": "1.63.2",
+    "web-vitals": "3.3.2"
+  },
+  "scripts": {
+    "start": "concurrently \"pwsh -Command 'node Backend/server.js'\" \"pwsh -Command 'npm run client'\"",
+    "server": "node Backend/server.js",
+    "client": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "7.22.5",
+    "react-scripts": "5.0.1",
+    "concurrently": "^7.6.0"
+  },
+  "overrides": {
+    "nth-check": "2.1.1"
+  }
+}

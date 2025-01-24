@@ -1,0 +1,24 @@
+/* Ajout d'effets de survol et de mise en forme */
+.btn:hover {
+    background-color: #0056b3 !important;
+    transform: translateY(-2px);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .card {
+    border-radius: 15px;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hover-effect:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+  }
+  
